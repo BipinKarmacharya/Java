@@ -1,0 +1,40 @@
+Method overloading in Java allows a class to have multiple methods with the same name but different parameter lists, enabling compile-time (static) polymorphism.
+Instead of defining two methods that should do the same thing, it is better to overload one.
+Same method name but different parameters (type, number, or order).
+
+The different ways of method overloading in Java are mentioned below:
+
+1. Changing the Number of Parameters
+Method overloading can be achieved by changing the number of parameters while passing to different methods.
+
+    Explanation:
+    - Two methods have the same name but different number of parameters.
+    - Compiler selects the correct method based on how many arguments are passed.
+
+2. Changing Data Types of Parameters
+In many cases, methods can be considered overloaded if they have the same name but have different parameter types, methods are considered to be overloaded.
+
+    Explanation:
+    - Methods differ in parameter types (int vs double).
+    - Compiler matches the method based on the exact data type of arguments.
+
+3. Changing the Order of Parameters
+Method overloading can also be implemented by rearranging the parameters of two or more overloaded methods.
+
+    Explanation:
+    - Methods have the same name but parameter order is different.
+    - Compiler identifies which method to call based on sequence of arguments.
+
+Note :  There can be a hybrid overloading also where number of parameters, type of parameters and order of parameters cam change in any combination.
+
+    ** What if the Exact Prototype Does Not Match?
+    Java tries type promotion in overloading
+    - Convert to a higher type in the same hierarchy (e.g., byte -> int).
+    - Convert to the next higher hierarchy if needed (e.g., int -> float).
+
+
+If no suitable method is found, it causes a compilation error.
+
+
+
+

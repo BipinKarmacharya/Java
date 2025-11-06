@@ -1,0 +1,9 @@
+Encapsulation = wrapping data (variables) and code (methods) together and controlling access.
+    In Java:
+        Make variables private
+        Provide public getters/setters to access them
+
+    Why use Encapsulation?
+    - Prevents direct access to data (data hiding)
+    - Maintains control over values
+    - Improves security and reusability
