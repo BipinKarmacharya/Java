@@ -1,0 +1,18 @@
+Inheritance in Java enables a class (subclass) to acquire fields and methods from another class (superclass) using the extends keyword. It supports code reusability, hierarchical classification, and polymorphism.
+
+- Superclass: Parent class whose properties are inherited.
+- Subclass: Child class that inherits properties and can add or override methods.
+- Method Overriding: Subclass provides specific implementation of a method already defined in superclass, using @Override.
+- super keyword: Access superclass methods and constructors.
+
+Java supports several types of inheritance:
+
+    - Single inheritance: One subclass inherits from a single superclass.
+    - Multilevel inheritance: A class inherits from a superclass, which itself inherits from another superclass, forming a chain.
+    - Hierarchical inheritance: Multiple subclasses inherit from a single superclass.
+    - Hybrid inheritance: A combination of multiple inheritance types, though Java does not directly support multiple inheritance with classes.
+
+    - Java does not support multiple inheritance with classes to avoid the "diamond problem" of ambiguity, but it allows a class to implement multiple interfaces, which serves a similar purpose for defining contracts.
+
+Best Practices: Use for "is-a" relationships, prefer composition when appropriate, keep hierarchies shallow.
+Every class implicitly extends java.lang.Object.
