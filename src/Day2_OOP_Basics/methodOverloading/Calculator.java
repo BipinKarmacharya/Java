@@ -1,4 +1,4 @@
-package Day2_OOP_Basics.MehodOverloading;
+package Day2_OOP_Basics.methodOverloading;
 
 public class Calculator {
     public int  add(int a, int b){

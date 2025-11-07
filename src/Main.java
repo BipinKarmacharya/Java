@@ -1,8 +1,5 @@
-import Day1_JavaBasics.*;
-import Day2_OOP_Basics.MehodOverloading.Calculator;
-import Day2_OOP_Basics.constructors.DefaultConstructors;
-import Day2_OOP_Basics.constructors.ParameterizedConstructors;
-import Day2_OOP_Basics.encapsulation.Account;
+import Day2_OOP_Basics.methodOverloading.Calculator;
+import Day3_OOP_Concepts.inheritance.singleInheritance.Student;
 
 public class Main {
     public static void main(String[] args) {
@@ -58,14 +55,17 @@ public class Main {
 //        e2.showDetails();
 //        e3.showDetails();
 
-        Calculator calc = new Calculator();
-        System.out.println("\nSum of two integers: " + calc.add(5, 10));
-        System.out.println("\nMethod overloading - Changing the Number of Parameters");
-        System.out.println("Sum of three integers: " + calc.add(10, 20, 30));
-        System.out.println("\nMethod overloading - Changing Data Types of Parameters");
-        System.out.println("Sum of two decimal numbers: " + calc.add(5.5, 8.2));
-        System.out.println("\n\nMethod overloading - Changing the Order of Parameters");
-        calc.student("Bipin", 1);
-        calc.student(2, "Sanbi");
+//        Calculator calc = new Calculator();
+//        System.out.println("\nSum of two integers: " + calc.add(5, 10));
+//        System.out.println("\nMethod overloading - Changing the Number of Parameters");
+//        System.out.println("Sum of three integers: " + calc.add(10, 20, 30));
+//        System.out.println("\nMethod overloading - Changing Data Types of Parameters");
+//        System.out.println("Sum of two decimal numbers: " + calc.add(5.5, 8.2));
+//        System.out.println("\n\nMethod overloading - Changing the Order of Parameters");
+//        calc.student("Bipin", 1);
+//        calc.student(2, "Sanbi");
+
+        Student s1 = new Student("Bipin", "25", "LEC");
+        s1.showCollege();
     }
 }
