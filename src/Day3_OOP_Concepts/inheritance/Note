@@ -16,3 +16,13 @@ Java supports several types of inheritance:
 
 Best Practices: Use for "is-a" relationships, prefer composition when appropriate, keep hierarchies shallow.
 Every class implicitly extends java.lang.Object.
+
+Syntax:-
+
+class Parent {
+    // fields, methods
+}
+
+class Child extends Parent {
+    // additional fields, methods
+}

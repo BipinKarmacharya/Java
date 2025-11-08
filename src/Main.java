@@ -1,5 +1,14 @@
 import Day2_OOP_Basics.methodOverloading.Calculator;
-import Day3_OOP_Concepts.inheritance.singleInheritance.Student;
+import Day3_OOP_Concepts.abstraction.abstraceClass.Cat;
+import Day3_OOP_Concepts.abstraction.interfaces.Car;
+import Day3_OOP_Concepts.abstraction.interfaces.Vehicle;
+import Day3_OOP_Concepts.employeeManagementSystem.Developer;
+import Day3_OOP_Concepts.employeeManagementSystem.Employee;
+import Day3_OOP_Concepts.employeeManagementSystem.Manager;
+import Day3_OOP_Concepts.inheritance.basic.Student;
+import Day3_OOP_Concepts.inheritance.usingConstructor.Teacher;
+import Day3_OOP_Concepts.methodOverriding.Animal;
+import Day3_OOP_Concepts.methodOverriding.Dog;
 
 public class Main {
     public static void main(String[] args) {
@@ -55,6 +64,8 @@ public class Main {
 //        e2.showDetails();
 //        e3.showDetails();
 
+//        Day 2 - Method Overloading
+
 //        Calculator calc = new Calculator();
 //        System.out.println("\nSum of two integers: " + calc.add(5, 10));
 //        System.out.println("\nMethod overloading - Changing the Number of Parameters");
@@ -65,7 +76,56 @@ public class Main {
 //        calc.student("Bipin", 1);
 //        calc.student(2, "Sanbi");
 
-        Student s1 = new Student("Bipin", "25", "LEC");
-        s1.showCollege();
+
+//        Day-3 Basic Inheritance
+
+//        Student s1 = new Student();
+//        s1.name = "Bipin";
+//        s1.age = 25;
+//        s1.college = "LEC";
+//        s1.showInfo();
+//        s1.showCollege();
+
+
+//        Day-3 Inheritance using Constructor
+
+//        Teacher t1 = new Teacher("Ram", 45, "LEC");
+//        t1.showDetails();
+
+
+//        Day-3 Method Overriding
+
+//        Animal d= new Dog();
+//        d.makeSound();
+
+
+//        Day-3 Abstraction - abstract class
+
+//        Animal a = new Cat();
+//        a.makeSound();
+//        a.sleep();
+
+
+//        Day-3 interface
+
+//        Vehicle v = new Car();
+//        v.start();
+//        v.stop();
+
+
+//        Day-3 Mini Project - Employee Management System
+
+//        Employee e1 = new Developer("Bipin", 200000);
+//        Employee e2 = new Manager("Sita", 210000);
+//        e1.showDetails();
+//        e1.calculateBonus();
+//        e2.showDetails();
+//        e2.calculateBonus();
+
+
+
+
+
+
     }
 }
