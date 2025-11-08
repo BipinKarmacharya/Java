@@ -1,0 +1,25 @@
+What is the Collections Framework?
+- Java Collection Framework (JCF) is a set of classes and interfaces that provide ready-made data structures to store and manipulate groups of objects efficiently.
+- Replaces arrays in most modern Java code (because arrays are fixed size).
+
+    - Java provides built-in collection classes like List, Set, Map and Queue, so developers don’t need to write their own data management algorithms.
+    - The Collection Framework improves productivity by making code more reusable, maintainable and faster to develop.
+
+Hierarchy:
+
+    Collection (Interface)
+    ├── List (Interface)
+    │     ├── ArrayList
+    │     └── LinkedList
+    ├── Set (Interface)
+    │     ├── HashSet
+    │     └── TreeSet
+    └── Map (Interface)
+          ├── HashMap
+          └── TreeMap
+
+
+Notes:
+    List → ordered, allows duplicates
+    Set → unordered, no duplicates
+    Map → key-value pairs
