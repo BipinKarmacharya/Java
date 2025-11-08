@@ -1,0 +1,13 @@
+Abstraction in Java is the process of hiding internal implementation details and showing only essential functionality to the user.
+It focuses on what an object does rather than how it does it.
+
+    Java provides two ways to implement abstraction, which are listed below:
+    - Abstract Classes (Partial Abstraction)
+    - Interface (100% Abstraction)
+
+Abstract Class
+An abstract class is a class that cannot be instantiated and may contain abstract methods (methods without body) as well as concrete methods (with implementation).
+
+Interface
+Interfaces is a blueprint of a class used to achieve 100% abstraction in Java.
+It can contain abstract methods and constants but no method bodies (except default and static methods from Java 8 onward).

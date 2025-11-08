@@ -1,0 +1,6 @@
+Overriding means redefining a parent class method in the child class with the same name, return type, and parameters.
+
+Notes
+    - Use @Override annotation (best practice)
+    - Method overriding is runtime polymorphism
+    - Achieved through inheritance
