@@ -11,6 +11,7 @@ import Day3_OOP_Concepts.methodOverriding.Animal;
 import Day3_OOP_Concepts.methodOverriding.Dog;
 import Day4_CollectionsFramework.listInterface.ArrayLists;
 import Day4_CollectionsFramework.listInterface.LinkedLists;
+import Day4_CollectionsFramework.mapInterface.HashMaps;
 import Day4_CollectionsFramework.setInterface.HashSets;
 
 public class Main {
@@ -137,8 +138,12 @@ public class Main {
 
 
 //        Day-4 Hash Set
-        HashSets h = new HashSets();
-        h.result();
+//        HashSets hSet = new HashSets();
+//        hSet.result();
+
+//        Day-4 Hash Map
+//        HashMaps hMap = new HashMaps();
+//        hMap.result();
 
 
 
