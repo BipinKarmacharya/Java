@@ -10,6 +10,7 @@ import Day3_OOP_Concepts.inheritance.usingConstructor.Teacher;
 import Day3_OOP_Concepts.methodOverriding.Animal;
 import Day3_OOP_Concepts.methodOverriding.Dog;
 import Day4_CollectionsFramework.listInterface.ArrayLists;
+import Day4_CollectionsFramework.listInterface.LinkedLists;
 
 public class Main {
     public static void main(String[] args) {
@@ -124,10 +125,14 @@ public class Main {
 //        e2.calculateBonus();
 
 
-//        Day-4 ArrayLists
-        ArrayLists arr = new ArrayLists();
-        arr.result();
+//        Day-4 Array Lists
+//        ArrayLists arr = new ArrayLists();
+//        arr.result();
 
+
+//        Day-4 Linked List
+        LinkedLists l = new LinkedLists();
+        l.result();
 
 
 
