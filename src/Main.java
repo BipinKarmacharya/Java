@@ -11,6 +11,7 @@ import Day3_OOP_Concepts.methodOverriding.Animal;
 import Day3_OOP_Concepts.methodOverriding.Dog;
 import Day4_CollectionsFramework.listInterface.ArrayLists;
 import Day4_CollectionsFramework.listInterface.LinkedLists;
+import Day4_CollectionsFramework.setInterface.HashSets;
 
 public class Main {
     public static void main(String[] args) {
@@ -131,8 +132,13 @@ public class Main {
 
 
 //        Day-4 Linked List
-        LinkedLists l = new LinkedLists();
-        l.result();
+//        LinkedLists l = new LinkedLists();
+//        l.result();
+
+
+//        Day-4 Hash Set
+        HashSets h = new HashSets();
+        h.result();
 
 
 
