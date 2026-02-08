@@ -1,0 +1,14 @@
+Mini Project (1 hour)
+🎯 Project: Student Directory Manager
+
+Build a console app that:
+Stores student names and IDs using HashMap.
+
+Allows:
+    - Adding a new student
+    - Viewing all students
+    - Searching a student by ID
+    - Deleting a student
+
+👉 Hint:
+Use a Scanner for input and a HashMap<Integer, String> for storage.
